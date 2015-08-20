@@ -1,0 +1,11 @@
+assets/libs
+node_modules
+node_modules/*
+/assets/css/index.css
+assets/css/index.css
+.DS_STORE
+assets/libs/bootstrap/dist/css/bootstrap.css
+/assets/libs/bootstrap/dist/css/bootstrap.css
+assets/libs/*
+dist
+/dist

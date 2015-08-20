@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "authors": [
+    "Daniel Flores <dnielfs@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "/assets/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "jQuery.mmenu": "latest"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/!(variables).less"
+      ]
+    }
+  }
+}
